@@ -2,9 +2,9 @@
 
 int main(){
 #ifdef USER_MYMACRO
-	printf("Anil:USER_MYMACRO\n");
+	printf("Anil:Git:USER_MYMACRO\n");
 #else
-	printf("Anil:Hello World...\n");
+	printf("Anil:Git:Hello World...\n");
 	myfunction();
 #endif
 	return 0;
